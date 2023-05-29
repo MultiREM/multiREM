@@ -25,7 +25,8 @@ def convert_bio_sample_csv(file_path):
                     for id in id_list:
                         # ------ accession
                         if id.get('@db') == 'BioSample':
-                            row['id_biosample_accession'] = id.get('#text') # matches '@accession' key.
+                            row['biosample_accession'] = id.get('#text') # matches '@accession' key.
+                            row['biosample_url'] = 'https://www.ncbi.nlm.nih.gov/biosample/' + row['biosample_accession']
                         # ------ sample name
                         if id.get('@db') == 'Sample name':
                             row['id_sample_name'] = id.get('#text')
