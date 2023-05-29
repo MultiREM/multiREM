@@ -29,9 +29,9 @@ def convert_bio_project_csv(file_path):
                 rows.append(row)
 
             # list -> json
-            list_to_json(rows, './data_target/bioprojects.json')
+            list_to_json(rows, './data_transforms/bioprojects.json')
             # list -> csv
-            list_to_csv(rows, './data_target/bioprojects.csv')
+            list_to_csv(rows, './data_transforms/bioprojects.csv')
 
         except json.JSONDecodeError as e:
             print(f"Error: Failed to load JSON file. {e}")
