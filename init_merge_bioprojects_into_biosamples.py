@@ -34,7 +34,7 @@ def init_merge_bioprojects_into_biosamples():
             except json.JSONDecodeError as e:
                 print(f"Error: Failed to load JSON file. {e}")
                 return None
-    print('ok')
+
 
 if __name__ == "__main__":
     init_merge_bioprojects_into_biosamples()

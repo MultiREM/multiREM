@@ -20,12 +20,18 @@ def convert_bio_project_csv(file_path):
                 row['project_description'] = sample.get('Project').get('ProjectDescr').get('Description')
                 # organism (name/strain... kind of messy bc can be multiple samples. just relate back on id)
                 # relevances
-                row['is_relevance_agricultural'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Agricultural', None) == 'yes'
-                row['is_relevance_environmental'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Environmental', None) == 'yes'
-                row['is_relevance_evolution'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Evolution', None) == 'yes'
-                row['is_relevance_industrial'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Industrial', None) == 'yes'
-                row['is_relevance_model_organism'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('ModelOrganism', None) == 'yes'
-                row['relevance_other'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Other')
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Agricultural', None) == 'yes':
+                    row['is_relevance_agricultural'] = True
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Environmental', None) == 'yes':
+                    row['is_relevance_environmental'] = True
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Evolution', None) == 'yes':
+                    row['is_relevance_evolution'] = True
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Industrial', None) == 'yes':
+                    row['is_relevance_industrial'] = True
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('ModelOrganism', None) == 'yes':
+                    row['is_relevance_model_organism'] = True
+                if sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Other') != None:
+                    row['relevance_other'] = sample.get('Project').get('ProjectDescr').get('Relevance', {}).get('Other')
                 rows.append(row)
 
             # list -> json
