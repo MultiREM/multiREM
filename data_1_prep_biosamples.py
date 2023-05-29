@@ -29,13 +29,15 @@ def convert_bio_sample_csv(file_path):
                             row['biosample_url'] = 'https://www.ncbi.nlm.nih.gov/biosample/' + row['biosample_accession']
                         # ------ sample name
                         if id.get('@db') == 'Sample name':
-                            row['id_sample_name'] = id.get('#text')
-                        # ------ SRA
+                            row['sample_name'] = id.get('#text')
+                        # ------ SRA (sequence read archive. These are not the final runs, that's in sra_result)
                         if id.get('@db') == 'SRA':
-                            row['id_sra'] = id.get('#text')
+                            row['sra_id'] = id.get('#text')
+                            row['sra_url'] = 'https://ncbi.nlm.nih.gov/sra/' + id.get('#text') # ex: https://ncbi.nlm.nih.gov/sra/SRX20019450
                         # ------ GEO
                         if id.get('@db') == 'GEO':
-                            row['id_geo'] = id.get('#text')
+                            row['geo_id'] = id.get('#text')
+                            row['geo_url'] = 'https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=' + id.get('#text')
                 # --- links ()
                 if sample.get('Links') != None:
                     link_list = to_list(sample.get('Links').get('Link'))
