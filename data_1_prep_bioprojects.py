@@ -13,9 +13,9 @@ def convert_bio_project_csv(file_path):
             for sample in data.get('Document').get('DocumentSummary'):
                 row = dict()
                 # bio project lable/id
-                row['bioproject_label'] = sample.get('Project').get('ProjectID').get('ArchiveID').get('@accession')
-                row['bioproject_label_id'] = sample.get('Project').get('ProjectID').get('ArchiveID').get('@id')
-                row['bioproject_url'] = 'https://www.ncbi.nlm.nih.gov/bioproject/' + row['bioproject_label_id']
+                row['bioproject_accession'] = sample.get('Project').get('ProjectID').get('ArchiveID').get('@accession')
+                row['bioproject_accession_id'] = sample.get('Project').get('ProjectID').get('ArchiveID').get('@id')
+                row['bioproject_url'] = 'https://www.ncbi.nlm.nih.gov/bioproject/' + row['bioproject_accession_id']
                 row['project_tilte'] = sample.get('Project').get('ProjectDescr').get('Title')
                 row['project_description'] = sample.get('Project').get('ProjectDescr').get('Description')
                 # organism (name/strain... kind of messy bc can be multiple samples. just relate back on id)

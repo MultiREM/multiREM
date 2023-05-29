@@ -12,19 +12,19 @@ def init_merge_bioprojects_into_biosamples():
                 bioprojects_data = json.load(projects_file)
 
                 # key projects on id w/ dict as value
-                bioprojects_dict = { bp['bioproject_label']: bp for bp in bioprojects_data }
+                bioprojects_dict = { bp['bioproject_accession']: bp for bp in bioprojects_data }
 
                 # map over biosamples
                 def extend_biosample_with_project_info(biosample):
-                    if biosample.get('bioproject_label', None) != None and bioprojects_dict.get(biosample.get('bioproject_label'), None) != None:
-                        biosample['bioproject_title'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('project_title')
-                        biosample['bioproject_description'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('project_description')
-                        biosample['is_relevance_agricultural'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('is_relevance_agricultural')
-                        biosample['is_relevance_environmental'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('is_relevance_environmental')
-                        biosample['is_relevance_evolution'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('is_relevance_evolution')
-                        biosample['is_relevance_industrial'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('is_relevance_industrial')
-                        biosample['is_relevance_model_organism'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('is_relevance_model_organism')
-                        biosample['relevance_other'] = bioprojects_dict.get(biosample.get('bioproject_label')).get('relevance_other')
+                    if biosample.get('bioproject_accession', None) != None and bioprojects_dict.get(biosample.get('bioproject_accession'), None) != None:
+                        biosample['bioproject_title'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('project_title')
+                        biosample['bioproject_description'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('project_description')
+                        biosample['is_relevance_agricultural'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('is_relevance_agricultural')
+                        biosample['is_relevance_environmental'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('is_relevance_environmental')
+                        biosample['is_relevance_evolution'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('is_relevance_evolution')
+                        biosample['is_relevance_industrial'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('is_relevance_industrial')
+                        biosample['is_relevance_model_organism'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('is_relevance_model_organism')
+                        biosample['relevance_other'] = bioprojects_dict.get(biosample.get('bioproject_accession')).get('relevance_other')
                     return biosample
                 extended_biosamples_data = list(map(extend_biosample_with_project_info, biosamples_data))
 

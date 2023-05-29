@@ -47,8 +47,8 @@ def convert_bio_sample_csv(file_path):
                         # ------ bio project (Link property. Going to make a column for both label and text)
                         if link.get('@target') == 'bioproject':
                             row['is_bioproject'] = True
-                            row['bioproject_label'] = link.get('@label')
-                            row['bioproject_label_id'] = link.get('#text')
+                            row['bioproject_accession'] = link.get('@label')
+                            row['bioproject_accession_id'] = link.get('#text')
                             row['bioproject_url'] = 'https://www.ncbi.nlm.nih.gov/bioproject/' + link.get('#text')
                         # ------ other link: pubmed -- eh only 1 record has this
                         # ------ other link: url
