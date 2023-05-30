@@ -1,0 +1,983 @@
+
+1. Candidatus Methylobacter oryzae strain:KRF1 Genome sequencing and assembly
+Organism: Candidatus Methylobacter oryzae (Taxonomy ID 2497749)
+BioProject Accession: PRJNA510716
+ID: 510716
+
+2. Candidatus Methylospira mobilis strain:Shm1 Genome sequencing
+Organism: Candidatus Methylospira mobilis (Taxonomy ID 1808979)
+BioProject Accession: PRJNA573467
+ID: 573467
+
+3. Crenothrix sp. China:harbin Raw sequence reads
+Organism: Crenothrix sp. China:harbin (Taxonomy ID 2005391)
+BioProject Accession: PRJNA388156
+ID: 388156
+
+4. Methylicorpusculum oleiharenae XLMV4 Genome sequencing and assembly
+Organism: Methylicorpusculum oleiharenae (Taxonomy ID 1338687)
+BioProject Accession: PRJNA594089
+ID: 594089
+
+5. Methylobacter luteus IMV-B-3098 Genome sequencing and assembly
+Organism: Methylobacter luteus IMV-B-3098 (Taxonomy ID 1095552)
+BioProject Accession: PRJNA82927
+ID: 82927
+
+6. Genome analysis of a marine methanotroph, Methylobacter marinus MR1
+Organism: Methylobacter marinus (Taxonomy ID 34058)
+BioProject Accession: PRJDB11745
+ID: 910688
+
+7. Methylobacter marinus A45 Genome sequencing and assembly
+Organism: Methylobacter marinus A45 (Taxonomy ID 674036)
+BioProject Accession: PRJNA157067
+ID: 157067
+
+8. Methylobacter psychrophilus strain:Z-0021 | isolate:DSM 9914 Genome sequencing and assembly
+Organism: Methylobacter psychrophilus (Taxonomy ID 96941)
+BioProject Accession: PRJNA883059
+ID: 883059
+
+9. Methylobacter sp. BBA5.1 Genome sequencing and assembly
+Organism: Methylobacter sp. BBA5.1 (Taxonomy ID 1495064)
+BioProject Accession: PRJNA245747
+ID: 245747
+
+10. Methylobacter sp. BlB1 Genome sequencing and assembly
+Organism: Methylobacter sp. BlB1 (Taxonomy ID 2785914)
+BioProject Accession: PRJNA675424
+ID: 675424
+
+11. Methylobacter sp. S3L5C Genome sequencing
+Organism: Methylobacter sp. S3L5C (Taxonomy ID 2839024)
+BioProject Accession: PRJNA732575
+ID: 732575
+
+12. Methylobacter sp. UW 659-2-G11 Genome sequencing
+Organism: Methylobacter sp. UW 659-2-G11 (Taxonomy ID 1206097)
+BioProject Accession: PRJNA169689
+ID: 169689
+
+13. Methylobacter sp. UW 659-2-H10 Genome sequencing
+Organism: Methylobacter sp. UW 659-2-H10 (Taxonomy ID 1206096)
+BioProject Accession: PRJNA346565
+ID: 346565
+
+14. Methylobacter sp. UW 659-2-H10 Genome sequencing
+Organism: Methylobacter sp. UW 659-2-H10 (Taxonomy ID 1206096)
+BioProject Accession: PRJNA169688
+ID: 169688
+
+15. Methylobacter sp. YRD-M1 isolate:soil Genome sequencing
+Organism: Methylobacter sp. YRD-M1 (Taxonomy ID 2911520)
+BioProject Accession: PRJNA794946
+ID: 794946
+
+16. Methylobacter tundripaludum OWC-G53F genome sequencing
+Organism: Methylobacter tundripaludum (Taxonomy ID 173365)
+BioProject Accession: PRJNA369868
+ID: 369868
+
+17. Methylobacter tundripaludum OWC-DMM genome sequencing
+Organism: Methylobacter tundripaludum (Taxonomy ID 173365)
+BioProject Accession: PRJNA369867
+ID: 369867
+
+18. Methylobacter tundripaludum OWC-G53F genome sequencing
+Organism: Methylobacter tundripaludum (Taxonomy ID 173365)
+BioProject Accession: PRJNA367817
+ID: 367817
+
+19. Methylobacter tundripaludum OWC-DMM genome sequencing
+Organism: Methylobacter tundripaludum (Taxonomy ID 173365)
+BioProject Accession: PRJNA367816
+ID: 367816
+
+20. QUORUM SENSING IN A METHANE-OXIDIZING BACTERIUM
+Organism: Methylobacter tundripaludum 21/22 (Taxonomy ID 1408450)
+BioProject Accession: PRJNA338986
+ID: 338986
+
+21. Methylobacter tundripaludum 21/22 Genome sequencing and assembly
+Organism: Methylobacter tundripaludum 21/22 (Taxonomy ID 1408450)
+BioProject Accession: PRJNA223144
+ID: 223144
+
+22. Methylobacter tundripaludum 31/32 Genome sequencing and assembly
+Organism: Methylobacter tundripaludum 31/32 (Taxonomy ID 1408451)
+BioProject Accession: PRJNA223142
+ID: 223142
+
+23. Methylobacter tundripaludum SV96 genome sequencing project
+Organism: Methylobacter tundripaludum SV96 (Taxonomy ID 697282)
+BioProject Accession: PRJNA48297
+ID: 48297
+
+24. Methylobacter whittenburyi strain:ACM 3310 Genome sequencing
+Organism: Methylobacter whittenburyi (Taxonomy ID 39770)
+BioProject Accession: PRJNA252872
+ID: 252872
+
+25. Transcriptome analysis of Methylocaldum marinum S8
+Organism: Methylocaldum marinum (Taxonomy ID 1432792)
+BioProject Accession: PRJDB10788
+ID: 719501
+
+26. Complete genome of Methylocaldum marinum
+Organism: Methylocaldum marinum (Taxonomy ID 1432792)
+BioProject Accession: PRJDB5306
+ID: 403957
+
+27. Methylocaldum sp. 0917 Genome sequencing
+Organism: Methylocaldum sp. 0917 (Taxonomy ID 2485163)
+BioProject Accession: PRJNA501187
+ID: 501187
+
+28. Methylocaldum sp. 14B Genome sequencing and assembly
+Organism: Methylocaldum sp. 14B (Taxonomy ID 1912213)
+BioProject Accession: PRJNA349985
+ID: 349985
+
+29. Methylocaldum sp. BRCS4 Genome sequencing and assembly
+Organism: Methylocaldum sp. BRCS4 (Taxonomy ID 2510798)
+BioProject Accession: PRJNA517824
+ID: 517824
+
+30. Methylocaldum sp. RMAD-M Genome sequencing and assembly
+Organism: Methylocaldum sp. RMAD-M (Taxonomy ID 2806557)
+BioProject Accession: PRJNA695684
+ID: 695684
+
+31. Methylocaldum sp. S3v3 Genome sequencing
+Organism: Methylocaldum sp. S3v3 (Taxonomy ID 2806558)
+BioProject Accession: PRJNA695685
+ID: 695685
+
+32. Methylocaldum sp. SAD2 Genome sequencing and assembly
+Organism: Methylocaldum sp. SAD2 (Taxonomy ID 1912212)
+BioProject Accession: PRJNA349982
+ID: 349982
+
+33. Methylocaldum sp. YM2 Genome sequencing
+Organism: Methylocaldum sp. YM2 (Taxonomy ID 2806559)
+BioProject Accession: PRJNA695686
+ID: 695686
+
+34. Methylocaldum szegediense O-12 genome sequencing project
+Organism: Methylocaldum szegediense O-12 (Taxonomy ID 675524)
+BioProject Accession: PRJNA63053
+ID: 63053
+
+35. Bathymodiolus platifrons methylotrophs symbiosis Metagenomic assembly
+Organism: Methylococcaceae (Taxonomy ID 403)
+BioProject Accession: PRJNA350575
+ID: 350575
+
+36. Methylococcus capsulatus strain:MIR Genome sequencing
+Organism: Methylococcus capsulatus (Taxonomy ID 414)
+BioProject Accession: PRJNA835301
+ID: 835301
+
+37. LLC GIPROBIOSINTEZ Methylococcus capsulatus Genome sequencing and assembly
+Organism: Methylococcus capsulatus (Taxonomy ID 414)
+BioProject Accession: PRJNA510013
+ID: 510013
+
+38. Methylococcus capsulatus str. Bath Raw sequence reads
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA796612
+ID: 796612
+
+39. Transcriptomic study of hydrogen sulfide toxicity in Methylococcus capsulatus
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA791232
+ID: 791232
+
+40. Methylococcus capsulatus Bath transcriptome - Bath-REP3-NMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425644
+ID: 425644
+
+41. Methylococcus capsulatus Bath transcriptome - Bath-REP3-NMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425643
+ID: 425643
+
+42. Methylococcus capsulatus Bath transcriptome - Bath-REP3-AMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425642
+ID: 425642
+
+43. Methylococcus capsulatus Bath transcriptome - Bath-REP3-AMS-CH4.tube
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425641
+ID: 425641
+
+44. Methylococcus capsulatus Bath transcriptome - Bath-REP3-AMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425640
+ID: 425640
+
+45. Methylococcus capsulatus Bath transcriptome - Bath-REP2-NMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425639
+ID: 425639
+
+46. Methylococcus capsulatus Bath transcriptome - Bath-REP2-NMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425638
+ID: 425638
+
+47. Methylococcus capsulatus Bath transcriptome - Bath-REP2-AMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425637
+ID: 425637
+
+48. Methylococcus capsulatus Bath transcriptome - Bath-REP2-AMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425636
+ID: 425636
+
+49. Methylococcus capsulatus Bath transcriptome - Bath-REP1-NMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425635
+ID: 425635
+
+50. Methylococcus capsulatus Bath transcriptome - Bath-REP1-NMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425634
+ID: 425634
+
+
+51. Methylococcus capsulatus Bath transcriptome - Bath-REP1-AMS-MeOH
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425633
+ID: 425633
+
+52. Methylococcus capsulatus Bath transcriptome - Bath-REP1-AMS-CH4
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA425632
+ID: 425632
+
+53. Methylococcus capsulatus str. Bath Transcriptome or Gene expression
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA258929
+ID: 258929
+
+54. Uses methane as sole carbon and energy source
+Organism: Methylococcus capsulatus str. Bath (Taxonomy ID 243233)
+BioProject Accession: PRJNA21
+ID: 21
+
+55. Methylococcus capsulatus str. Texas = ATCC 19069 Genome sequencing and assembly
+Organism: Methylococcus capsulatus str. Texas = ATCC 19069 (Taxonomy ID 1224744)
+BioProject Accession: PRJNA187109
+ID: 187109
+
+56. Methylococcus capsulatus str. Texas = ATCC 19069 Genome sequencing and assembly
+Organism: Methylococcus capsulatus str. Texas = ATCC 19069 (Taxonomy ID 1224744)
+BioProject Accession: PRJNA173038
+ID: 173038
+
+57. Methylococcus geothermalis strain:IM1 Genome sequencing
+Organism: Methylococcus geothermalis (Taxonomy ID 2681310)
+BioProject Accession: PRJNA592014
+ID: 592014
+
+58. Methylococcus sp. 16-5 Genome sequencing
+Organism: Methylococcus sp. 16-5 (Taxonomy ID 2993564)
+BioProject Accession: PRJNA898492
+ID: 898492
+
+59. Methylococcus sp. BF19-07 Genome sequencing and assembly
+Organism: Methylococcus sp. BF19-07 (Taxonomy ID 2743472)
+BioProject Accession: PRJNA638512
+ID: 638512
+
+60. Genome sequencing of methane-oxidizing bacterium Methylogaea oryzae JCM16910
+Organism: Methylogaea oryzae JCM 16910 (Taxonomy ID 493385)
+BioProject Accession: PRJDB8373
+ID: 733711
+
+61. Genome sequencing of Methylogaea oryzae JCM 16910
+Organism: Methylogaea oryzae JCM 16910 (Taxonomy ID 493385)
+BioProject Accession: PRJDB848
+ID: 243749
+
+62. Methyloglobulus morosus KoM1 Genome sequencing and assembly
+Organism: Methyloglobulus morosus KoM1 (Taxonomy ID 1116472)
+BioProject Accession: PRJNA223505
+ID: 223505
+
+63. Methylohalobius crimeensis 10Ki Genome sequencing and assembly
+Organism: Methylohalobius crimeensis 10Ki (Taxonomy ID 1283300)
+BioProject Accession: PRJNA186467
+ID: 186467
+
+64. Genome sequencing of methane-oxidizing bacterium Methylomagnum ishizawai RS11D-Pr
+Organism: Methylomagnum ishizawai (Taxonomy ID 1760988)
+BioProject Accession: PRJDB8374
+ID: 733712
+
+65. Methylomagnum ishizawai 175 genome sequencing
+Organism: Methylomagnum ishizawai (Taxonomy ID 1760988)
+BioProject Accession: PRJNA256722
+ID: 256722
+
+66. Genome analysis of a novel marine methanotroph, Methylomarinovum sp. IN45
+Organism: Methylomarinovum (Taxonomy ID 1486720)
+BioProject Accession: PRJDB11749
+ID: 910689
+
+67. Genome analysis of a marine methanotroph, Methylomarinovum caldicuralii IT-9
+Organism: Methylomarinovum caldicuralii (Taxonomy ID 438856)
+BioProject Accession: PRJDB11744
+ID: 910687
+
+68. Genome analysis of a novel marine methanotroph, Methylomarinum sp. JGM
+Organism: Methylomarinum sp. (Taxonomy ID 2685872)
+BioProject Accession: PRJDB11753
+ID: 910691
+
+69. Genome analysis of a novel marine methanotroph, Methylomarinum sp. IN20
+Organism: Methylomarinum sp. (Taxonomy ID 2685872)
+BioProject Accession: PRJDB11751
+ID: 910690
+
+70. Methylomarinum vadi strain:IT-4 Genome sequencing and assembly
+Organism: Methylomarinum vadi (Taxonomy ID 438855)
+BioProject Accession: PRJNA246204
+ID: 246204
+
+71. Methylomicrobium agile strain:ATCC 35068 Genome sequencing and assembly
+Organism: Methylomicrobium agile (Taxonomy ID 39774)
+BioProject Accession: PRJNA239499
+ID: 239499
+
+72. Biomarker Response of Aerobic Methanotrophs to Methane Oxidation Rates and Short-Term Methane and Oxygen Limitation
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA780482
+ID: 780482
+
+73. Methylomicrobium album BG8 transcriptome - BG8-REP3-NMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425691
+ID: 425691
+
+74. Methylomicrobium album BG8 transcriptome - BG8-REP3-NMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425690
+ID: 425690
+
+75. Methylomicrobium album BG8 transcriptome - BG8-REP3-AMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425689
+ID: 425689
+
+76. Methylomicrobium album BG8 transcriptome - BG8-REP3-AMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425688
+ID: 425688
+
+77. Methylomicrobium album BG8 transcriptome - BG8-REP2-NMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425687
+ID: 425687
+
+78. Methylomicrobium album BG8 transcriptome - BG8-REP2-NMS-CH4 -2
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425686
+ID: 425686
+
+79. Methylomicrobium album BG8 transcriptome - BG8-REP2-NMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425685
+ID: 425685
+
+80. Methylomicrobium album BG8 transcriptome - BG8-REP2-AMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425684
+ID: 425684
+
+81. Methylomicrobium album BG8 transcriptome - BG8-REP2-AMS-CH4 -2
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425683
+ID: 425683
+
+82. Methylomicrobium album BG8 transcriptome - BG8-REP2-AMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425682
+ID: 425682
+
+83. Methylomicrobium album BG8 transcriptome - BG8-REP1-NMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425681
+ID: 425681
+
+84. Methylomicrobium album BG8 transcriptome - BG8-REP1-NMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425680
+ID: 425680
+
+85. Methylomicrobium album BG8 transcriptome - BG8-REP1-AMS-MeOH
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425679
+ID: 425679
+
+86. Methylomicrobium album BG8 transcriptome - BG8-REP1-AMS-CH4
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA425678
+ID: 425678
+
+87. Methylomicrobium album BG8 Transcriptome or Gene expression
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA259136
+ID: 259136
+
+88. Methylomicrobium album BG8 genome sequencing project
+Organism: Methylomicrobium album BG8 (Taxonomy ID 686340)
+BioProject Accession: PRJNA51783
+ID: 51783
+
+89. Methylomicrobium lacus LW14 Genome sequencing and assembly
+Organism: Methylomicrobium lacus LW14 (Taxonomy ID 1114263)
+BioProject Accession: PRJNA161599
+ID: 161599
+
+90. Methylomicrobium sp. RS1 Genome sequencing and assembly
+Organism: Methylomicrobium sp. RS1 (Taxonomy ID 2802053)
+BioProject Accession: PRJNA690655
+ID: 690655
+
+91. Methylomonas denitrificans strain:FJG1 Genome sequencing
+Organism: Methylomonas denitrificans (Taxonomy ID 1538553)
+BioProject Accession: PRJNA258394
+ID: 258394
+
+92. Genome sequencing of methane-oxidizing bacterium Methylomonas koyamae Fw12E-Y
+Organism: Methylomonas koyamae (Taxonomy ID 702114)
+BioProject Accession: PRJDB8300
+ID: 730434
+
+93. Methylomonas koyamae strain:LM6 Genome sequencing and assembly
+Organism: Methylomonas koyamae (Taxonomy ID 702114)
+BioProject Accession: PRJNA394621
+ID: 394621
+
+94. Methylomonas koyamae strain:R-49807 Genome sequencing and assembly
+Organism: Methylomonas koyamae (Taxonomy ID 702114)
+BioProject Accession: PRJNA315278
+ID: 315278
+
+95. Methylomonas koyamae strain:R-45383 Genome sequencing and assembly
+Organism: Methylomonas koyamae (Taxonomy ID 702114)
+BioProject Accession: PRJNA315277
+ID: 315277
+
+96. Methylomonas koyamae strain:R-45378 Genome sequencing and assembly
+Organism: Methylomonas koyamae (Taxonomy ID 702114)
+BioProject Accession: PRJNA315276
+ID: 315276
+
+97. Genome sequencing of Methylomonas koyamae JCM 16701
+Organism: Methylomonas koyamae JCM 16701 (Taxonomy ID 1294261)
+BioProject Accession: PRJDB819
+ID: 243728
+
+98. Methylomonas lenta strain:R-45370 Genome sequencing and assembly
+Organism: Methylomonas lenta (Taxonomy ID 980561)
+BioProject Accession: PRJNA315274
+ID: 315274
+
+99. Methylomonas methanica S-1 genome sequencing
+Organism: Methylomonas methanica (Taxonomy ID 421)
+BioProject Accession: PRJNA501192
+ID: 501192
+
+100. Methylomonas methanica strain:R-45371 Genome sequencing and assembly
+Organism: Methylomonas methanica (Taxonomy ID 421)
+BioProject Accession: PRJNA315272
+ID: 315272
+
+
+101. Methylomonas methanica strain:R-45363 Genome sequencing and assembly
+Organism: Methylomonas methanica (Taxonomy ID 421)
+BioProject Accession: PRJNA315271
+ID: 315271
+
+102. Methylomonas methanica strain:NCIMB 11130 Genome sequencing and assembly
+Organism: Methylomonas methanica (Taxonomy ID 421)
+BioProject Accession: PRJNA315270
+ID: 315270
+
+103. : Complete genome sequence of the aerobic marine methanotroph Methylomonas methanica MC09
+Organism: Methylomonas methanica MC09 (Taxonomy ID 857087)
+BioProject Accession: PRJNA53917
+ID: 53917
+
+104. Methylomonas paludis strain:S2AM Genome sequencing
+Organism: Methylomonas paludis (Taxonomy ID 1173101)
+BioProject Accession: PRJNA724036
+ID: 724036
+
+105. Methylomonas rapida strain:MP1 Genome sequencing
+Organism: Methylomonas rapida (Taxonomy ID 2963939)
+BioProject Accession: PRJNA858590
+ID: 858590
+
+106. Methylomonas rhizoryzae strain:GJ1 Genome sequencing and assembly
+Organism: Methylomonas rhizoryzae (Taxonomy ID 2608981)
+BioProject Accession: PRJNA564367
+ID: 564367
+
+107. Methylomonas sp. 11b Genome sequencing and assembly
+Organism: Methylomonas sp. 11b (Taxonomy ID 1168169)
+BioProject Accession: PRJNA157071
+ID: 157071
+
+108. Comparative transcriptome analysis of a novel obligate Methylomonas sp. DH-1 reveals key differences in the transcriptional responses in C1 and secondary metabolite pathways during growth on methane and methanol
+Organism: Methylomonas sp. DH-1 (Taxonomy ID 1727196)
+BioProject Accession: PRJNA394670
+ID: 394670
+
+109. Methylomonas sp. DH-1 Genome sequencing and assembly
+Organism: Methylomonas sp. DH-1 (Taxonomy ID 1727196)
+BioProject Accession: PRJNA312260
+ID: 312260
+
+110. Methylomonas sp. JGI 01_C17 Genome sequencing
+Organism: Methylomonas sp. JGI 01_C17 (Taxonomy ID 2505754)
+BioProject Accession: PRJNA403474
+ID: 403474
+
+111. Methylomonas sp. Kb3 Genome sequencing and assembly
+Organism: Methylomonas sp. Kb3 (Taxonomy ID 1611544)
+BioProject Accession: PRJNA420422
+ID: 420422
+
+112. Methylomonas sp. LW13 Genome sequencing and assembly
+Organism: Methylomonas sp. LW13 (Taxonomy ID 107637)
+BioProject Accession: PRJNA693287
+ID: 693287
+
+113. Interspecies chemical signalling in a methane-oxidizing bacterial community
+Organism: Methylomonas sp. LW13 (Taxonomy ID 107637)
+BioProject Accession: PRJNA504474
+ID: 504474
+
+114. Methylomonas sp. LW13 Genome sequencing
+Organism: Methylomonas sp. LW13 (Taxonomy ID 107637)
+BioProject Accession: PRJNA225845
+ID: 225845
+
+115. Methylomonas  genome sequencing
+Organism: Methylomonas sp. LWB (Taxonomy ID 1905845)
+BioProject Accession: PRJNA345156
+ID: 345156
+
+116. Methylomonas sp. MK1
+Organism: Methylomonas sp. MK1 (Taxonomy ID 1131552)
+BioProject Accession: PRJNA183356
+ID: 183356
+
+117. Methylomonas sp. OY6 Genome sequencing and assembly
+Organism: Methylomonas sp. OY6 (Taxonomy ID 3045149)
+BioProject Accession: PRJNA968043
+ID: 968043
+
+118. Methylomonas SCGC AD-277-J22 genome sequencing
+Organism: Methylomonas sp. scgc ad-277-j22 (Taxonomy ID 1798199)
+BioProject Accession: PRJNA311436
+ID: 311436
+
+119. Methylomonas sp. UP202 Genome sequencing and assembly
+Organism: Methylomonas sp. UP202 (Taxonomy ID 3040943)
+BioProject Accession: PRJNA954998
+ID: 954998
+
+120. Methylomonas sp. ZR1 Genome sequencing and assembly
+Organism: Methylomonas sp. ZR1 (Taxonomy ID 1797072)
+BioProject Accession: PRJNA454056
+ID: 454056
+
+121. Methyloprofundus sedimenti strain:WF1 Genome sequencing and assembly
+Organism: Methyloprofundus sedimenti (Taxonomy ID 1420851)
+BioProject Accession: PRJNA306177
+ID: 306177
+
+122. Methylosarcina fibrata AML-C10 Genome sequencing and assembly
+Organism: Methylosarcina fibrata AML-C10 (Taxonomy ID 1132443)
+BioProject Accession: PRJNA165581
+ID: 165581
+
+123. Methyloterricola oryzae 73a genome sequencing
+Organism: Methyloterricola oryzae (Taxonomy ID 1495050)
+BioProject Accession: PRJNA245748
+ID: 245748
+
+124. Methylotetracoccus oryzae  Genome sequencing and assembly
+Organism: Methylotetracoccus oryzae (Taxonomy ID 1919059)
+BioProject Accession: PRJNA361434
+ID: 361434
+
+125. Engineered methanotrophic platform for biomanufacturing of non-oxidative ribulose monophosphate pathway-derived products from methane and xylose
+Organism: Methylotuvimicrobium alcaliphilum 20Z (Taxonomy ID 1091494)
+BioProject Accession: PRJNA631717
+ID: 631717
+
+126. Highly efficient methane biocatalysis revealed in a methanotrophic bacterium
+Organism: Methylotuvimicrobium alcaliphilum 20Z (Taxonomy ID 1091494)
+BioProject Accession: PRJNA221338
+ID: 221338
+
+127. Methylotuvimicrobium alcaliphilum 20Z Genome sequencing
+Organism: Methylotuvimicrobium alcaliphilum 20Z (Taxonomy ID 1091494)
+BioProject Accession: PRJEA73721
+ID: 73721
+
+128. Methylotuvimicrobium buryatense strain:5GB1C Transcriptome or Gene expression
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA720552
+ID: 720552
+
+129. Functional genomics of Methylomicrobium buryatense
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA718760
+ID: 718760
+
+130. Functional genomics of Methylotuvimicrobium buryatense
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA718747
+ID: 718747
+
+131. A computational framework for identifying promoter sequences in non-model organisms using RNA-seq datasets
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA680545
+ID: 680545
+
+132. Methylomicrobium buryatense 5GB1 transcriptome, Raw sequence reads
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA597286
+ID: 597286
+
+133. A mutagenic screen identifies a TonB-dependent receptor required for the lanthanide metal switch in the Type I methanotroph “Methylotuvimicrobium buryatense” 5GB1C
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA517935
+ID: 517935
+
+134. Methylotuvimicrobium buryatense strain:5GB1C Genome sequencing
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA515283
+ID: 515283
+
+135. Core metabolism shifts of methanol vs. methane growth in the methanotroph Methylomicrobium buryatense 5GB1
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA433951
+ID: 433951
+
+136. OXYGEN-LIMITED METABOLISM IN THE METHANOTROPH METHYLOMICROBIUM BURYATENSE 5GB1C
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA396065
+ID: 396065
+
+137. Methylomicrobium buryatense 5GB1C resequencing
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA322692
+ID: 322692
+
+138. Methylomicrobium buryatense variant with improved genetic tractability sequencing
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA265105
+ID: 265105
+
+139. Methylomicrobium buryatense variant resequencing
+Organism: Methylotuvimicrobium buryatense (Taxonomy ID 95641)
+BioProject Accession: PRJNA265098
+ID: 265098
+
+140. Methylotuvimicrobium buryatense 5G strain:5G Genome sequencing and assembly
+Organism: Methylotuvimicrobium buryatense 5G (Taxonomy ID 675511)
+BioProject Accession: PRJNA89087
+ID: 89087
+
+141. Methylotuvimicrobium kenyense strain:AMO Genome sequencing
+Organism: Methylotuvimicrobium kenyense (Taxonomy ID 269709)
+BioProject Accession: PRJNA255620
+ID: 255620
+
+142. Methylovulum miyakonense HT12 Genome sequencing and assembly
+Organism: Methylovulum miyakonense HT12 (Taxonomy ID 1078846)
+BioProject Accession: PRJNA86077
+ID: 86077
+
+143. Methylovulum psychrotolerans strain:S1L Genome sequencing and assembly
+Organism: Methylovulum psychrotolerans (Taxonomy ID 1704499)
+BioProject Accession: PRJNA726368
+ID: 726368
+
+144. Methylovulum psychrotolerans strain:Sph1 Genome sequencing and assembly
+Organism: Methylovulum psychrotolerans (Taxonomy ID 1704499)
+BioProject Accession: PRJNA418066
+ID: 418066
+
+145. Methylovulum psychrotolerans strain:HV10_M2 Genome sequencing
+Organism: Methylovulum psychrotolerans (Taxonomy ID 1704499)
+BioProject Accession: PRJNA391059
+ID: 391059
+
+146. Methylovulum psychrotolerans  Genome sequencing and assembly
+Organism: Methylovulum psychrotolerans (Taxonomy ID 1704499)
+BioProject Accession: PRJNA377219
+ID: 377219
+
+147. High resolution sampling of freshwater reservoir in Czech Republic
+BioProject Accession: PRJEB52406
+ID: 955529
+
+148. Oxford Nanopore sequencing reads for genome assembly of the methane biofilter isolate Methylococcus capsulatus (Norfolk)
+BioProject Accession: PRJNA951443
+ID: 951443
+
+149. Oxford Nanopore sequencing reads for genome assembly of the methane biofilter isolate Methylocaldum szegediense (Norfolk)
+BioProject Accession: PRJNA951440
+ID: 951440
+
+150. Draft genome sequence of a biofilter Methylococcus isolate
+BioProject Accession: PRJEB60078
+ID: 944039
+
+
+151. Metabolic handoffs between multiple symbionts of deep-sea mussel Idas modiolaeformis
+BioProject Accession: PRJNA930646
+ID: 930646
+
+152. Antarctic methanotrophic enrichments
+BioProject Accession: PRJNA916534
+ID: 916534
+
+153. Role of inflow bacteria for microbial resilience in small waterbodies
+BioProject Accession: PRJEB56877
+ID: 906865
+
+154. Transcriptomics of 20ZX-ABH and 20ZX-ABH-Y-T7 in methane and methane plus xylose
+BioProject Accession: PRJNA873255
+ID: 873255
+
+155. P-mobilizing bacteria
+BioProject Accession: PRJNA869840
+ID: 869840
+
+156. Draft genome sequence of a biofilter Methylocaldum isolate
+BioProject Accession: PRJEB52687
+ID: 855793
+
+157. Freshwater metagenomes from different European and Asian lakes
+BioProject Accession: PRJEB35640
+ID: 854407
+
+158. Urban MAG antimicrobial resistance diversity
+BioProject Accession: PRJNA850115
+ID: 850115
+
+159. BugReMeDee Novel Microbial Isolates
+BioProject Accession: PRJNA847547
+ID: 847547
+
+160. Mudoger v1.0, genome recovery made easy
+BioProject Accession: PRJNA843551
+ID: 843551
+
+161. Metagenomic analysis of of anaerobic methane-oxidizing enrichment culture from terrestrial mud volcano
+BioProject Accession: PRJNA833668
+ID: 833668
+
+162. Microbial environmental genome in microbial electrochemical system under electron influence
+BioProject Accession: PRJNA830509
+ID: 830509
+
+163. Fermentative bacteria Raw sequence reads
+BioProject Accession: PRJNA822090
+ID: 822090
+
+164. Large-scale analysis of novel cellular microbes from the plant biome
+BioProject Accession: PRJEB51079
+ID: 809298
+
+165. Vanishing Glaciers Project
+BioProject Accession: PRJNA781406
+ID: 781406
+
+166. Response of Methylomonas sp DH-1 to oxygen concentration change
+BioProject Accession: PRJNA769841
+ID: 769841
+
+167. Recovery of novel prokaryotic genomes associated with aquatic environments, based on assembly and binning of publicly available sequence data.
+BioProject Accession: PRJEB37807
+ID: 764123
+
+168. Metagenomic sequencing of Echo Lake, Flathead County, Montana
+BioProject Accession: PRJNA761446
+ID: 761446
+
+169. Sequencing of new Methylococcus isolates
+BioProject Accession: PRJNA742920
+ID: 742920
+
+170. Estuarine ecology
+BioProject Accession: PRJNA730330
+ID: 730330
+
+171. Thermotolerant Methanotrophic Bacteria From Sediments Of The River Chernaya, Crimea.
+BioProject Accession: PRJNA722466
+ID: 722466
+
+172. serpentinized hot spring
+BioProject Accession: PRJNA720291
+ID: 720291
+
+173. EET by a Methanoperedens enrichment culture
+BioProject Accession: PRJEB43626
+ID: 715158
+
+174. Metagenome of environmental sample from a cold seep
+BioProject Accession: PRJNA707313
+ID: 707313
+
+175. Characterization of methanotrophs from mercury contaminated streams
+BioProject Accession: PRJNA701963
+ID: 701963
+
+176. M. album BG8 grown in multiple nutrient conditions
+BioProject Accession: PRJNA698057
+ID: 698057
+
+177. Discrepancy in exchangeable and soluble ammonium-induced effects on aerobic methane oxidation; a microcosm study of a paddy soil.
+BioProject Accession: PRJNA691142
+ID: 691142
+
+178. Zodletone Spring Metagenomics and Metatranscriptomics
+BioProject Accession: PRJNA690107
+ID: 690107
+
+179. Riparian wetland methanotrophs
+BioProject Accession: PRJNA674997
+ID: 674997
+
+180. CROMO well depth profile 16S rRNA gene amplicons
+BioProject Accession: PRJNA672823
+ID: 672823
+
+181. Comprehensive dataset of shotgun metagenomes from stratified freshwater lakes and ponds
+BioProject Accession: PRJEB38681
+ID: 639763
+
+182. Genome sequencing of two Methylomonas species isolated from the river Elbe (Germany)
+BioProject Accession: PRJEB32611
+ID: 630607
+
+183. Microbial community of the geothermal soils of Pantelleria
+BioProject Accession: PRJEB36447
+ID: 621258
+
+184. Prokaryotic metagenome-assembled genomes retrieved from Amazon river basin water samples metagenomes sequenced in Illumina platform
+BioProject Accession: PRJEB25176
+ID: 614052
+
+185. Biological organic matter and manganese oxidizing bacteria Raw sequence reads
+BioProject Accession: PRJNA601291
+ID: 601291
+
+186. Enrichment cultures dominated by methanotrophs established with suspended particulate matter of the water column of Lake Lacamas (WA, US) Raw sequence reads
+BioProject Accession: PRJNA598329
+ID: 598329
+
+187. Freshwater Metagenomes from European Lakes and Reservoirs (including time-series metagenomes)
+BioProject Accession: PRJEB35770
+ID: 595687
+
+188. Gut bacteria of three Altica species Genome sequencing and assembly
+BioProject Accession: PRJNA592411
+ID: 592411
+
+189. Transcriptional and metabolic adaptations of the methanotroph Methylomicrobium alcaliphilum to high salinity conditions
+BioProject Accession: PRJNA587052
+ID: 587052
+
+190. A complex interplay between nitric oxide, quorum sensing and a unique secondary metabolite tundrenone constitutes hypoxia response in Methylobacter
+BioProject Accession: PRJNA575263
+ID: 575263
+
+191. "Methylotuvimicrobium buryatense" 5GB1C lanthanum-response repressor mutants
+BioProject Accession: PRJNA535342
+ID: 535342
+
+192. Methylococcaceae bacterium FWC3 Genome sequencing and assembly
+BioProject Accession: PRJNA520977
+ID: 520977
+
+193. Genome-scale revealing the central metabolic network of the fast growing methanotroph Methylomonas sp. ZR1
+BioProject Accession: PRJNA508275
+ID: 508275
+
+194. Effect of salt stress on aerobic methane oxidation and associated methanotrophs; a microcosm study of a natural community from a non-saline environment
+BioProject Accession: PRJEB25534
+ID: 471462
+
+195. Identifying bacteria strains isolated from rice roots Genome sequencing
+BioProject Accession: PRJNA430105
+ID: 430105
+
+196. Collection of 3,087 bacterial metagenome-assembled genomes recovered from metagenomes available from the Sequence Read Archive.
+BioProject Accession: PRJNA417962
+ID: 417962
+
+197. Study type II and I methanotrophs in paddy soils
+BioProject Accession: PRJEB37235
+ID: 400878
+
+198. methanotrophs in wetland paddies
+BioProject Accession: PRJEB40045
+ID: 399867
+
+199. Transcriptomics of Methylobacter tundripaludum SV96
+BioProject Accession: PRJNA390985
+ID: 390985
+
+200. Crenothrix polyspora sand filter metagenomics project
+BioProject Accession: PRJEB19189
+ID: 374819
+
+
+201. Methylocaldum sp. 175
+BioProject Accession: PRJEB18516
+ID: 356533
+
+202. Bacterial community composition Raw sequence reads
+BioProject Accession: PRJNA355959
+ID: 355959
+
+203. microorganisms in the biofilter for ammonia, iron and manganese removal Genome sequencing and assembly
+BioProject Accession: PRJNA352765
+ID: 352765
+
+204. A transcriptomics approach to compare transcriptomes of individual methylotrophs from Lake Washington sediment in artificial communities and in pure cultures.
+BioProject Accession: PRJNA339225
+ID: 339225
+
+205. The Epigenomic Landscape of Prokaryotes
+BioProject Accession: PRJNA287040
+ID: 287040
+
+206. Methylocucumis oryzae strain:Sn10-6 Genome sequencing and assembly
+BioProject Accession: PRJNA278928
+ID: 278928
+
+207. Using Illumina HiSeq 2500 platform with dual-indexed paired-end to sequence the hotspring sample
+BioProject Accession: PRJEB4990
+ID: 263772
+
+208. Refseq Prokaryotic Genome Annotation Project
+BioProject Accession: PRJNA224116
+ID: 224116
+
