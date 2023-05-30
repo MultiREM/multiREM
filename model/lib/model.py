@@ -33,3 +33,10 @@ def validate_epoch(model, data, criterion):
         pred = out.argmax(dim=1)
         loss = criterion(out[data.valid_mask], data.y[data.valid_mask])        
     return loss, emb2
+
+def predict(model, data): 
+    model.eval()
+    with torch.no_grad():
+        out, emb = model(data)
+        pred = out.argmax(dim=1)
+    return pred, emb

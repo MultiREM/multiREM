@@ -4,7 +4,9 @@ Description: Training script for SUPREME adapted to MultiREM project
 TODO: 
 - Add mlflow for run tracking 
 - Fix feature selection so it's not using this wack R code 
-- Add inference step 
+- Add inference ability 
+- Add arguments to script 
+
 '''
 
 
@@ -21,6 +23,7 @@ import argparse
 import errno
 import warnings
 import logging
+import json
 
 import pandas as pd
 import numpy as np
@@ -74,7 +77,6 @@ PATIENCE = 30
 
 HIDDEN_LAYER_SIZES = [50, 100, 200]
 LEARNING_RATES = [0.01, 0.001, 0.0001]
-
 
 ADD_RAW_FEATURES = True
 CLASSIFIER = "MLP"
@@ -245,6 +247,20 @@ def train_model(network_name, X_nodes_cat, labels, edge_index, train_valid_idx, 
         pickle.dump(selected_emb, f)
         pd.DataFrame(selected_emb).to_csv(emb_file[:-4] + '.csv')
 
+    # Save the model 
+    model_file = os.path.join(OUTPUT_DIR, f"{network_name}_gcn_model.pt")
+    torch.save(model.state_dict(), model_file)
+
+    # Save best hyperparams 
+    hyperparams = {
+        'learning_rate': best_emb_lr,
+        'hidden_size': best_emb_hs,
+        'input_size': data.x.shape[1],
+        'output_size': num_classes
+    }
+    with open(os.path.join(OUTPUT_DIR, f"{network_name}_gcn_params.json"), 'w') as f:
+        json.dump(hyperparams, f)
+
     return selected_emb
 
 
@@ -298,6 +314,7 @@ def get_classifier(classifier, X_train, y_train):
                     gamma = search.best_params_['gamma'])
 
     logger.info(f'selected parameters = {search.best_params_}')
+
     return model
 
 def evaluate_classifier(model, X_train, y_train, X_test, y_test): 
@@ -330,7 +347,7 @@ def evaluate_classifier(model, X_train, y_train, X_test, y_test):
 
     logger.info("\n".join([f"{k}: {round(np.mean(v), 3)}+-{round(np.std(v), 3)}" for k, v in metrics.items()]))
 
-    return metrics 
+    return metrics, model 
 
 if __name__ == '__main__':
 
@@ -391,5 +408,10 @@ if __name__ == '__main__':
     logger.info(f"Shape: {X_train.shape}, {y_train.shape}, {X_test.shape}, {y_test.shape}")
 
     model = get_classifier(CLASSIFIER, X_train, y_train)
-    metrics = evaluate_classifier(model, X_train, y_train, X_test, y_test)
+    metrics, model = evaluate_classifier(model, X_train, y_train, X_test, y_test)
+
+    # Save model 
+    model_file = os.path.join(OUTPUT_DIR, f"{CLASSIFIER}_classifier.pkl")
+    with open(model_file, 'wb') as f:
+        pickle.dump(model, f)
 
