@@ -3,16 +3,8 @@ Description: Training script for SUPREME adapted to MultiREM project
 
 TODO: 
 - Add mlflow for run tracking 
-
-'''
-
-
-'''
-Description: Training script for SUPREME adapted to MultiREM project 
-
-TODO: 
-- Add mlflow for run tracking 
-
+- Fix feature selection so it's not using this wack R code 
+- Add inference step 
 '''
 
 
@@ -82,6 +74,10 @@ PATIENCE = 30
 
 HIDDEN_LAYER_SIZES = [50, 100, 200]
 LEARNING_RATES = [0.01, 0.001, 0.0001]
+
+
+ADD_RAW_FEATURES = True
+CLASSIFIER = "MLP"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -252,6 +248,90 @@ def train_model(network_name, X_nodes_cat, labels, edge_index, train_valid_idx, 
     return selected_emb
 
 
+def get_classifier(classifier, X_train, y_train): 
+    logger.info(f"Training classifier {classifier}")
+    if classifier == 'MLP':
+        params = {'hidden_layer_sizes': [(16,), (32,),(64,),(128,),(256,),(512,), (32, 32), (64, 32), (128, 32), (256, 32), (512, 32)]}
+        search = RandomizedSearchCV(estimator = MLPClassifier(solver = 'adam', activation = 'relu', early_stopping = True), 
+                                    return_train_score = True, scoring = 'f1_macro', 
+                                    param_distributions = params, cv = 4, n_iter = 10, verbose = 0)
+        search.fit(X_train, y_train)
+        model = MLPClassifier(solver = 'adam', activation = 'relu', early_stopping = True,
+                                hidden_layer_sizes = search.best_params_['hidden_layer_sizes'])
+        
+    elif classifier == 'XGBoost':
+        params = {'reg_alpha':range(0,6,1), 'reg_lambda':range(1,5,1),
+                    'learning_rate':[0, 0.001, 0.01, 1]}
+        fit_params = {'early_stopping_rounds': 10,
+                        'eval_metric': 'mlogloss',
+                        'eval_set': [(X_train, y_train)]}
+                
+        search = RandomizedSearchCV(estimator = XGBClassifier(use_label_encoder=False, n_estimators = 1000, 
+                                                                    fit_params = fit_params, objective="multi:softprob", eval_metric = "mlogloss", 
+                                                                    verbosity = 0), return_train_score = True, scoring = 'f1_macro',
+                                        param_distributions = params, cv = 4, n_iter = 10, verbose = 0)
+        
+        search.fit(X_train, y_train)
+        
+        model = XGBClassifier(use_label_encoder=False, objective="multi:softprob", eval_metric = "mlogloss", verbosity = 0,
+                                n_estimators = 1000, fit_params = fit_params,
+                                reg_alpha = search.best_params_['reg_alpha'],
+                                reg_lambda = search.best_params_['reg_lambda'],
+                                learning_rate = search.best_params_['learning_rate'])
+                            
+    elif classifier == 'RF':
+        max_depth = [int(x) for x in np.linspace(10, 110, num = 11)]
+        max_depth.append(None)
+        params = {'n_estimators': [int(x) for x in np.linspace(start = 200, stop = 2000, num = 100)]}
+        search = RandomizedSearchCV(estimator = RandomForestClassifier(), return_train_score = True,
+                                    scoring = 'f1_macro', param_distributions = params, cv=4,  n_iter = 10, verbose = 0)
+        search.fit(X_train, y_train)
+        model=RandomForestClassifier(n_estimators = search.best_params_['n_estimators'])
+
+    elif classifier == 'SVM':
+        params = {'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+                    'gamma': [1, 0.1, 0.01, 0.001]}
+        search = RandomizedSearchCV(SVC(), return_train_score = True,
+                                    scoring = 'f1_macro', param_distributions = params, cv=4, n_iter = 10, verbose = 0)
+        search.fit(X_train, y_train)
+        model=SVC(C = search.best_params_['C'],
+                    gamma = search.best_params_['gamma'])
+
+    logger.info(f'selected parameters = {search.best_params_}')
+    return model
+
+def evaluate_classifier(model, X_train, y_train, X_test, y_test): 
+
+    metrics = {
+        'train_acc': [],
+        'train_wf1': [],
+        'train_mf1': [],
+        'test_acc': [],
+        'test_wf1': [],
+        'test_mf1': []
+    }
+
+    # Run classifier 10 times and average results
+    for _ in range(10):
+        model.fit(X_train,y_train)
+        predictions = model.predict(X_test)
+        y_pred = [round(value) for value in predictions]
+        # preds = model.predict(pd.DataFrame(data.x.numpy()))
+        tr_predictions = model.predict(X_train)
+        tr_pred = [round(value) for value in tr_predictions]
+
+        metrics['train_acc'].append(round(accuracy_score(y_train, tr_pred), 3))
+        metrics['train_wf1'].append(round(f1_score(y_train, tr_pred, average='weighted'), 3))
+        metrics['train_mf1'].append(round(f1_score(y_train, tr_pred, average='macro'), 3))
+
+        metrics['test_acc'].append(round(accuracy_score(y_test, y_pred), 3))
+        metrics['test_wf1'].append(round(f1_score(y_test, y_pred, average='weighted'), 3))
+        metrics['test_mf1'].append(round(f1_score(y_test, y_pred, average='macro'), 3))
+
+    logger.info("\n".join([f"{k}: {round(np.mean(v), 3)}+-{round(np.std(v), 3)}" for k, v in metrics.items()]))
+
+    return metrics 
+
 if __name__ == '__main__':
 
     labels, nodes, edges = get_data(DATA_DIR, NETWORKS)
@@ -271,12 +351,45 @@ if __name__ == '__main__':
 
     X_nodes_cat = torch.cat([torch.tensor(v.values).float() for v in X_nodes.values()], dim=1)
 
-
-    # For each network 
+    node_embeddings = {}
+    # For each network generate GCN node embeddings
     for n in NETWORKS: 
         logger.info(f"Training model for network {n}")
         edge_index = edges[n]
 
         # Train model
         emb = train_model(n, X_nodes_cat, labels, edge_index, train_valid_idx, test_idx, HIDDEN_LAYER_SIZES, LEARNING_RATES)
-    
+        node_embeddings[n] = emb
+
+    # Use embeddings from all networks for classifier 
+    # Concat embeddings from each network 
+    node_embeddings_concat = torch.cat([node_embeddings[n] for n in NETWORKS], axis=1)
+    logger.info(f"Final node embeddings shape: {node_embeddings_concat.shape}")
+
+    # Add raw features if desired
+    if ADD_RAW_FEATURES: 
+        X_nodes_cat_raw = torch.cat([torch.tensor(v.values).float() for v in nodes.values()], dim=1)
+        if NODE_FEATURE_SELECTION: 
+            X_nodes_cat_raw = select_node_features(X_nodes_cat_raw, NODE_NUM_FEATURES[NETWORKS.index(n)], NUM_BORUTA_RUNS, DEVICE)
+
+        node_embeddings_concat = torch.cat([node_embeddings_concat, X_nodes_cat_raw], dim=1)
+        logger.info(f"Final node embeddings shape with raw features: {node_embeddings_concat.shape}")
+
+    data = Data(x=node_embeddings_concat, y=labels)
+
+    # Split data into training and validation sets
+    data.train_mask = torch.zeros(data.num_nodes, dtype=torch.bool)
+    data.train_mask[train_valid_idx] = True
+    data.test_mask = torch.zeros(data.num_nodes, dtype=torch.bool)
+    data.test_mask[test_idx] = True
+
+    X_train = pd.DataFrame(data.x[data.train_mask])
+    y_train = data.y[data.train_mask].numpy()
+    X_test = pd.DataFrame(data.x[data.test_mask])
+    y_test = data.y[data.test_mask].numpy()
+
+    logger.info(f"Shape: {X_train.shape}, {y_train.shape}, {X_test.shape}, {y_test.shape}")
+
+    model = get_classifier(CLASSIFIER, X_train, y_train)
+    metrics = evaluate_classifier(model, X_train, y_train, X_test, y_test)
+
