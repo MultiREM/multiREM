@@ -1,0 +1,11 @@
+pandas
+numpy
+torch
+torch_geometric
+scikit-learn
+pickle5
+xgboost
+mlflow
+rpy2
+kaleido
+plotly
