@@ -4,7 +4,6 @@ Description: Training script for SUPREME adapted to MultiREM project
 TODO: 
 - Add mlflow for run tracking 
 - Fix feature selection so it's not using this wack R code 
-- Add inference ability 
 - Add arguments to script 
 
 '''
